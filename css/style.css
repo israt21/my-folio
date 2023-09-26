@@ -1,0 +1,24 @@
+h1, h2, h3, h4, h5, p, ul, ol {
+    margin: 0;
+}
+/*  font from google font  */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+#primary-nav {
+    background-color: #02918b;
+}
+#primary-nav #menu ul li a {
+    color: #ffff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 13.5px 25px;
+    display: inline-block;
+}
