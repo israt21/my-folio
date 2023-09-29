@@ -80,7 +80,6 @@ a {
 }
 #about .about_card{
     width: 25%;
-    text-align: center;
     border-right: 1px solid #ccc;
     padding: 36px 0;
 }
