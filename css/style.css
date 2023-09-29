@@ -1,10 +1,11 @@
-h1, h2, h3, h4, h5, p, ul, ol {
+h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 0;
 }
 /*  font from google font  */
 body {
     font-family: 'Open Sans', sans-serif;
 }
+/* nav section start here */
 ul {
     list-style-type: none;
 }
@@ -22,3 +23,88 @@ a {
     padding: 13.5px 25px;
     display: inline-block;
 }
+/* nav section end here */
+
+/* banner section start here */
+#banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./../img/banner_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 728px;
+    color: #ffff;
+}
+#banner h4 {
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner h1 {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+#banner p {
+    font-size: 18px;
+}
+#banner img{
+    margin: 38px 0;
+ }
+#banner a {
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+    background-color: #cfc91d;
+    padding: 14px 57px;
+    display: inline-block;
+    transition: all linear .5s;
+}
+/* banner section end here */
+/* about section start here */
+
+#about .section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+#about .section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+#about .section_info b{
+    font-size: 23px;
+}
+#about .container{
+    margin-top: 50px;
+}
+#about .about_card{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    padding: 36px 0;
+}
+
+#about .about_card span{
+    font-size: 30px;
+    color: #02918c;
+}
+
+#about .about_card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    margin: 28px 0;
+}
+
+#about .about_card p{
+    color: #7e8287;
+    font-size: 11px;
+    line-height: 16.5px;
+}
+
+#about .about_card:last-child {
+    border: none;
+    
+}
+/* about section end here */
