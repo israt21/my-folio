@@ -148,7 +148,11 @@ a {
 
 /* work section start here */
 #mywork {
-    padding: 110px 0;
+    padding: 70px 0;
+}
+
+#mywork p {
+    margin-bottom: 20px;
 }
 #mywork .work-box {
     position: relative;
@@ -157,8 +161,8 @@ a {
     position: absolute;
     background-color: #02918b;
     text-align: center;
-    inset: 20px 28px;
-    padding: 56px 36px;
+    inset: 20px;
+    padding-top: 70px;
     transform: scale(0);
     transition: 0.5s;
     opacity: 0;
@@ -169,3 +173,47 @@ a {
 }
 
 /* work section end here */
+/* contact section start here */
+#contact{
+    margin-top: 30px;
+}
+#contact p {
+    margin-bottom: 20px;
+}
+   
+#contact .contact-form {
+    background-color: #0b0b0b;
+    padding-top: 52px;
+}
+#contact .contact-form input {
+    margin-bottom: 30px;
+    padding: 18px;
+    text-align: center;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #898989 ;
+    color: #3f4143;
+}
+#contact .contact-form input:focus {
+    outline: none;
+    border-bottom-color: #02918b;
+}
+#contact button {
+    margin: 30px;
+    font-weight: 800;
+    background-color: #cfc91d;
+    text-transform: uppercase;
+    padding: 18px 66px;
+}
+#contact button:hover{
+    color: #02918b;
+}
+/* contact section end here */
+
+/* footer section start here */
+    footer {
+        background-color: #000000;
+        color:#4a4d50;
+        padding: 27px 0;
+    }
+/* footer section end here */
