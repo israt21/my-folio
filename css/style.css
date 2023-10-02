@@ -1,3 +1,4 @@
+/* common css start here */
 h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 0;
 }
@@ -5,6 +6,19 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+.section_info h2 {
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #02918c;
+}
+.section-info p {
+    font-size: 16px;
+    line-height: 41px;
+    color: #7e8287;
+}
+/* common  end here */
+
 /* nav section start here */
 ul {
     list-style-type: none;
@@ -111,16 +125,18 @@ a {
 
 #service {
     padding: 74px ;
+    margin-top: 74px ;
     background-image: url(./../img/bg_img.jpg);
     background-size: cover;
     background-position: center;
 }
 #service .service-box {
     padding: 10px;
+    
 }
 #service .service-box span {
     font-size: 30px;
-    color: #02918c;
+    color: #02918c
 }
 #service .service-box h4 {
     font-size: 16px;
@@ -128,20 +144,28 @@ a {
     color: #7e8287;
     margin: 28px 0;
 }
-#service .service-box p {
-    color: #7e8287;
-    font-size: 11px;
-    line-height: 16.5px;
-}
-#service .section_info h2 {
-    font-size: 46px;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #02918c;
-}
-#service .section_info p{
-    font-size: 16px;
-    line-height: 41px;
-    color: #7e8287;
-}
 /* service section end here */
+
+/* work section start here */
+#mywork {
+    padding: 110px 0;
+}
+#mywork .work-box {
+    position: relative;
+}
+#mywork .work-box .overlay {
+    position: absolute;
+    background-color: #02918b;
+    text-align: center;
+    inset: 20px 28px;
+    padding: 56px 36px;
+    transform: scale(0);
+    transition: 0.5s;
+    opacity: 0;
+}
+#mywork .work-box:hover .overlay{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* work section end here */
